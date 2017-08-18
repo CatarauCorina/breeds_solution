@@ -1,0 +1,119 @@
+Year:1
+Number of breed C agents:3854
+Number of breed NC agents:4983
+Default:8314
+Lost:263
+Gained:260
+----------------------------------------------
+Year:2
+Number of breed C agents:3633
+Number of breed NC agents:5204
+Default:8237
+Gained:265
+Lost:247
+Regained:88
+----------------------------------------------
+Year:3
+Number of breed C agents:4022
+Number of breed NC agents:4815
+Default:8164
+Regained:321
+Gained:301
+Lost:51
+----------------------------------------------
+Year:4
+Number of breed C agents:3677
+Number of breed NC agents:5160
+Default:8144
+Regained:330
+Gained:302
+Lost:61
+----------------------------------------------
+Year:5
+Number of breed C agents:3605
+Number of breed NC agents:5232
+Default:8127
+Regained:331
+Gained:302
+Lost:77
+----------------------------------------------
+Year:6
+Number of breed C agents:4059
+Number of breed NC agents:4778
+Default:8097
+Regained:401
+Gained:317
+Lost:22
+----------------------------------------------
+Year:7
+Number of breed C agents:3699
+Number of breed NC agents:5138
+Default:8086
+Regained:406
+Gained:317
+Lost:28
+----------------------------------------------
+Year:8
+Number of breed C agents:3909
+Number of breed NC agents:4928
+Default:8079
+Regained:409
+Gained:317
+Lost:32
+----------------------------------------------
+Year:9
+Number of breed C agents:3655
+Number of breed NC agents:5182
+Default:8074
+Regained:411
+Gained:317
+Lost:35
+----------------------------------------------
+Year:10
+Number of breed C agents:3907
+Number of breed NC agents:4930
+Default:8067
+Regained:418
+Gained:317
+Lost:35
+----------------------------------------------
+Year:11
+Number of breed C agents:3780
+Number of breed NC agents:5057
+Default:8049
+Regained:442
+Gained:325
+Lost:21
+----------------------------------------------
+Year:12
+Number of breed C agents:3892
+Number of breed NC agents:4945
+Default:8047
+Regained:444
+Gained:325
+Lost:21
+----------------------------------------------
+Year:13
+Number of breed C agents:3772
+Number of breed NC agents:5065
+Default:8042
+Regained:448
+Gained:326
+Lost:21
+----------------------------------------------
+Year:14
+Number of breed C agents:3944
+Number of breed NC agents:4893
+Default:8040
+Regained:458
+Gained:326
+Lost:13
+----------------------------------------------
+Year:15
+Number of breed C agents:3649
+Number of breed NC agents:5188
+Default:8035
+Regained:458
+Gained:326
+Lost:18
+----------------------------------------------

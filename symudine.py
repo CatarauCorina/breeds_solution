@@ -15,7 +15,6 @@ import random
 #nr of breed nc agents
 #nr of gained,lost,regained agents
 def model_output(year,model,file):
-    print(model['Flag'])
     count_breed_c=0
     count_breed_nc=0
     
