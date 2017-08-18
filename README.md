@@ -1,13 +1,6 @@
-# breeds
-
 # README 
 
 Breeds solution 
-
-## Table of Contents
-
-- [Run](#run)
-
 
 ## Run
 
