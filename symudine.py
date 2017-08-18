@@ -57,8 +57,9 @@ def run_model(years,model,txt):
                 if (breed == 'Breed_C') and (affinity < model['Social_Grade'][i] * model['Attribute_Brand'][i]):
                     model.loc[i,'Agent_Breed']='Breed_NC'
                     #changing the flag value to lost in order to mark the change
-                    if(model.loc[i,'Flag'] == 'Default'):
+                    if(model.loc[i,'Flag'] == 'Default') or (model.loc[i,'Flag']=='Regained'):
                         model.loc[i,'Flag']='Lost'
+                    
                     
                 else:
                     if (breed == 'Breed_NC') and (affinity < model['Social_Grade'][i] * model['Attribute_Brand'][i] * brand_factor):

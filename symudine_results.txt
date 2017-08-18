@@ -1,119 +1,119 @@
 Year:1
-Number of breed C agents:3854
-Number of breed NC agents:4983
-Default:8314
-Lost:263
-Gained:260
+Number of breed C agents:3716
+Number of breed NC agents:5121
+Default:8424
+Lost:277
+Gained:136
 ----------------------------------------------
 Year:2
-Number of breed C agents:3633
-Number of breed NC agents:5204
-Default:8237
-Gained:265
-Lost:247
-Regained:88
+Number of breed C agents:3947
+Number of breed NC agents:4890
+Default:8220
+Gained:288
+Regained:265
+Lost:64
 ----------------------------------------------
 Year:3
-Number of breed C agents:4022
-Number of breed NC agents:4815
-Default:8164
-Regained:321
-Gained:301
-Lost:51
+Number of breed C agents:3746
+Number of breed NC agents:5091
+Default:8177
+Gained:292
+Lost:290
+Regained:78
 ----------------------------------------------
 Year:4
-Number of breed C agents:3677
-Number of breed NC agents:5160
-Default:8144
-Regained:330
-Gained:302
-Lost:61
+Number of breed C agents:3930
+Number of breed NC agents:4907
+Default:8141
+Regained:305
+Gained:303
+Lost:88
 ----------------------------------------------
 Year:5
-Number of breed C agents:3605
-Number of breed NC agents:5232
-Default:8127
-Regained:331
-Gained:302
-Lost:77
+Number of breed C agents:3798
+Number of breed NC agents:5039
+Default:8112
+Gained:312
+Lost:258
+Regained:155
 ----------------------------------------------
 Year:6
-Number of breed C agents:4059
-Number of breed NC agents:4778
-Default:8097
-Regained:401
-Gained:317
-Lost:22
+Number of breed C agents:3919
+Number of breed NC agents:4918
+Default:8090
+Regained:321
+Gained:319
+Lost:107
 ----------------------------------------------
 Year:7
-Number of breed C agents:3699
-Number of breed NC agents:5138
-Default:8086
-Regained:406
-Gained:317
-Lost:28
+Number of breed C agents:3643
+Number of breed NC agents:5194
+Default:8078
+Lost:338
+Gained:319
+Regained:102
 ----------------------------------------------
 Year:8
-Number of breed C agents:3909
-Number of breed NC agents:4928
-Default:8079
-Regained:409
-Gained:317
-Lost:32
+Number of breed C agents:3897
+Number of breed NC agents:4940
+Default:8073
+Gained:319
+Regained:277
+Lost:168
 ----------------------------------------------
 Year:9
-Number of breed C agents:3655
-Number of breed NC agents:5182
-Default:8074
-Regained:411
-Gained:317
-Lost:35
+Number of breed C agents:3785
+Number of breed NC agents:5052
+Default:8063
+Gained:324
+Regained:229
+Lost:221
 ----------------------------------------------
 Year:10
-Number of breed C agents:3907
-Number of breed NC agents:4930
-Default:8067
-Regained:418
-Gained:317
-Lost:35
+Number of breed C agents:3937
+Number of breed NC agents:4900
+Default:8057
+Gained:324
+Regained:313
+Lost:143
 ----------------------------------------------
 Year:11
-Number of breed C agents:3780
-Number of breed NC agents:5057
+Number of breed C agents:3755
+Number of breed NC agents:5082
 Default:8049
-Regained:442
 Gained:325
-Lost:21
+Lost:252
+Regained:211
 ----------------------------------------------
 Year:12
-Number of breed C agents:3892
-Number of breed NC agents:4945
-Default:8047
-Regained:444
-Gained:325
-Lost:21
+Number of breed C agents:3908
+Number of breed NC agents:4929
+Default:8044
+Gained:326
+Regained:306
+Lost:161
 ----------------------------------------------
 Year:13
-Number of breed C agents:3772
-Number of breed NC agents:5065
-Default:8042
-Regained:448
-Gained:326
-Lost:21
+Number of breed C agents:3679
+Number of breed NC agents:5158
+Default:8038
+Gained:327
+Lost:315
+Regained:157
 ----------------------------------------------
 Year:14
-Number of breed C agents:3944
-Number of breed NC agents:4893
-Default:8040
-Regained:458
-Gained:326
-Lost:13
+Number of breed C agents:3686
+Number of breed NC agents:5151
+Default:8036
+Gained:327
+Lost:307
+Regained:167
 ----------------------------------------------
 Year:15
-Number of breed C agents:3649
-Number of breed NC agents:5188
-Default:8035
-Regained:458
-Gained:326
-Lost:18
+Number of breed C agents:3535
+Number of breed NC agents:5302
+Default:8034
+Lost:407
+Gained:327
+Regained:69
 ----------------------------------------------
