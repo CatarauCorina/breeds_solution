@@ -9,7 +9,7 @@ Breeds solution
 - [Run](#run)
 
 
-## Installation
+## Run
 
 Download to your project directory
 The program was written in Python using Spyder and Anaconda 
