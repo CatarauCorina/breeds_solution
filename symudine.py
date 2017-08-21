@@ -27,32 +27,15 @@ def create_out_result(year,model,df):
        df.loc[year,str(model['Flag'].value_counts().keys()[i])]=model['Flag'].value_counts()[model['Flag'].value_counts().keys()[i]]
    
 
-#Prints to txt file
-def model_output(year,model,file):
-    count_breed_c=0
-    count_breed_nc=0
-    
-    file.write("Year:"+str(year)+"\n") 
-    for i in range(0,model.shape[0]):
-        if (model['Agent_Breed'][i] == 'Breed_C'):
-            count_breed_c=count_breed_c+1
-        else:
-            if (model['Agent_Breed'][i] == 'Breed_NC'):
-                count_breed_nc=count_breed_nc+1
-    file.write("Number of breed C agents:"+str(count_breed_c)+"\n") 
-    file.write("Number of breed NC agents:"+str(count_breed_nc)+"\n") 
-    #keys() it's used because we don't always have all the flags 
-    for i in range(0,model['Flag'].value_counts().keys().size):
-        file.write(str(model['Flag'].value_counts().keys()[i])+":"+str(model['Flag'].value_counts()[model['Flag'].value_counts().keys()[i]])+"\n")
-    
-    file.write("----------------------------------------------"+"\n")
 
+#Consequence of switch to breed NC
 def breed_nc_switch(model,i):
     model.loc[i,'Agent_Breed']='Breed_NC'
     #changing the flag value to lost in order to mark the change
     if(model.loc[i,'Flag'] == 'Default') or (model.loc[i,'Flag']=='Regained'):
         model.loc[i,'Flag']='Lost'
-        
+
+#Consequence of switch to breed C        
 def breed_c_switch(model,i):
      model.loc[i,'Agent_Breed']='Breed_C'
      if(model.loc[i,'Flag'] == 'Default'):
@@ -60,6 +43,7 @@ def breed_c_switch(model,i):
      if(model['Flag'][i]=='Lost'):
          model.loc[i,'Flag']='Regained'
 
+#Dynamic condition and consequence change 
 def switch_breed(condition,consequence,model,i):
     if condition:
         consequence(model,i)
@@ -91,6 +75,8 @@ def run_model(years,model,txt,period):
                 
                 condition_breed_c=(condition_breed_nc == False) and(breed == 'Breed_NC') and (affinity < model['Social_Grade'][i] * model['Attribute_Brand'][i] * brand_factor)
                 switch_breed(condition_breed_c,breed_c_switch,model,i)
+                
+                #can be extended by defining more conditions and consequences 
                
         create_out_result(years,model,txt)
         years=years+1
